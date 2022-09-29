@@ -35,7 +35,7 @@ class LSTMAttention(nn.Module):
             outputs.append(outputs_item)
         outputs = torch.cat(outputs, dim = 1)
         # shortcut
-        output = self.fc(output)
+        output = self.fc_shortcut(output)
         output = self.sigmoid(output)
         outputs = outputs + output
         return outputs
