@@ -4,4 +4,4 @@ This repo may grow gradually and now it includes a tiny-transformer model, an at
 
 2022/10/17 Add MobileViT backbone, of which the trick is described at the head annotation.
 # tensor.py 
-It contains a fundamental, essential and fancy autograd frameworks
+It contains a fundamental, essential and fancy autograd framework.
